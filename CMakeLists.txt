@@ -4,7 +4,7 @@ cmake_minimum_required(VERSION 3.28 FATAL_ERROR)
 project(vpkedit
         DESCRIPTION "A CLI/GUI tool to create, read, and write several pack file formats."
         VERSION "5.0.0.5"
-        HOMEPAGE_URL "https://github.com/craftablescience/VPKEdit")
+        HOMEPAGE_URL "https://github.com/dictator-umejr/VPKEdit")
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
@@ -16,8 +16,8 @@ include(GNUInstallDirs)
 # extra metadata variables
 set(PROJECT_NAME_PRETTY "VPKEdit")
 cs_version_pretty() # PROJECT_VERSION_PRETTY
-set(PROJECT_ORGANIZATION_NAME "craftablescience" CACHE INTERNAL "" FORCE)
-set(PROJECT_HOMEPAGE_URL_API "https://api.github.com/repos/craftablescience/VPKEdit" CACHE INTERNAL "" FORCE)
+set(PROJECT_ORGANIZATION_NAME "dictator-umejr" CACHE INTERNAL "" FORCE)
+set(PROJECT_HOMEPAGE_URL_API "https://api.github.com/repos/dictator-umejr/VPKEdit" CACHE INTERNAL "" FORCE)
 
 # options
 option(VPKEDIT_BUILD_FOR_STRATA_SOURCE "Build ${PROJECT_NAME_PRETTY} for Strata Source games" OFF)

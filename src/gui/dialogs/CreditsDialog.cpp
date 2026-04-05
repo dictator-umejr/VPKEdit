@@ -53,7 +53,7 @@ CreditsDialog::CreditsDialog(QWidget* parent)
 
 	headerLayout->addSpacing(16);
 
-	auto* creditsLabel = new QLabel(QString("## %1\n*Created by [craftablescience](https://github.com/craftablescience)*\n<br/>\n").arg(PROJECT_TITLE.data()), this);
+	auto* creditsLabel = new QLabel(QString("## %1\n*Created by [dictator-umejr](https://github.com/dictator-umejr)*\n<br/>\n").arg(PROJECT_TITLE.data()), this);
 	creditsLabel->setTextFormat(Qt::MarkdownText);
 	creditsLabel->setOpenExternalLinks(true);
 	creditsLabel->setAlignment(Qt::AlignBottom);

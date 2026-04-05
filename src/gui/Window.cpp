@@ -149,11 +149,6 @@ Window::Window(QWidget* parent)
 	});
 	this->closeFileAction->setDisabled(true);
 
-	fileMenu->addSeparator();
-	fileMenu->addAction(QIcon{":/icons/kofi.png"}, tr("Donate On Ko-fi..."), [] {
-		QDesktopServices::openUrl({"https://ko-fi.com/craftablescience"});
-	});
-
 	this->checkForNewUpdateNetworkManager = new QNetworkAccessManager(this);
 	QObject::connect(this->checkForNewUpdateNetworkManager, &QNetworkAccessManager::finished, this, &Window::checkForUpdatesReply);
 

@@ -646,7 +646,7 @@ int main(int argc, const char* const* argv) {
 	               R"(         | $$             version v)"s + PROJECT_VERSION_PRETTY.data() + "\n"
 	               R"(         |__/                                                  )"        "\n"
 	               R"(                                                               )"        "\n"
-	               "Created by craftablescience. Contributors and libraries used are"          "\n"
+	               "Created by dictator-umejr. Contributors and libraries used are"          "\n"
 	               "listed in CREDITS.md. " + PROJECT_NAME_PRETTY.data() + " is licensed under the MIT License.");
 
 	try {
